@@ -1,119 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css">
 
 
 
 </head>
+
 <body>
-    <div class="container border " style="padding: 0px;">
-        <nav class="navbar sticky-top bg-light" style="padding: 0px;">
-            <div class="container-fluid" style="padding: 10px;">
-              <a class="navbar-brand" href="#">
-                <h5>Payment form example</h5>
-              </a>
-            </div>
-          </nav>
-        <div class="first entry">
-          <div class="bg-danger p-2 text-danger bg-opacity-25 rounded">Some fields are missing</div>
-        </div>
-        <div class="second entry d-flex">
-            <form class="row g-3 needs-validation" novalidate>
-                <div class="col-md-6">
-                  <label for="validationCustom01" class="form-label">First name</label>
-                  <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <label for="validationCustom02" class="form-label">Last name</label>
-                  <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <label for="validationCustom03" class="form-label">City</label>
-                  <input type="text" class="form-control" id="validationCustom03" required>
-                  <div class="invalid-feedback">
-                    Please provide a valid city.
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <label for="validationCustom04" class="form-label">State</label>
-                  <select class="form-select" id="validationCustom04" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option>...</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Please select a valid state.
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <label for="validationCustom05" class="form-label">Postal Code</label>
-                  <input type="text" class="form-control" id="validationCustom05" required>
-                  <div class="invalid-feedback">
-                    Please provide a valid zip.
-                  </div>
-                </div>
-                
-                <h5>We accept:</h5>
-                <div class="container d-flex">
-                  <div class="bg-secondary p-2 text-dark rounded">
-                  <div>
-                    <div class="form-check form-check-inline">
-                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                      <label class="form-check-label" for="inlineRadio1">
-                        <i class="fa-brands fa-cc-mastercard fa-lg"></i>
-                      </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                      <label class="form-check-label" for="inlineRadio2">
-                        <i class="fa-brands fa-cc-visa fa-lg"></i>
-                      </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
-                      <label class="form-check-label" for="inlineRadio3">
-                        <i class="fa-brands fa-cc-discover fa-lg"></i>
-                      </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4" >
-                      <label class="form-check-label" for="inlineRadio4">
-                        <i class="fa-brands fa-cc-amex fa-lg"></i>
-                      </label>
-                    </div>
-                  </div>
-                  </div>
-                  <label for="floatingTextarea2">Message</label>
-                  <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                    
-                  </div>
-                </div>
-                <div class="container">
-                <nav class="navbar sticky-bottom bg-light d-flex flex-row-reverse">
-                          <a class="navbar-brand" href="#">
-                              <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
-                              <label class="btn btn-secondary" for="option1">Cancel</label>
-                              <button class="btn btn-primary" type="submit">Submit form</button>
-                          </a>
-                        </nav>
-                </div>
-                    </div>
-                </div>
-              </form>
+  <div class="container border " style="padding: 0px;">
+  <div class="container border " style="padding: 0px;">
+    <div class="container" style="padding: 0px;">
+    <nav class="navbar sticky-top bg-light" style="padding: 0px;">
+      <div class="container-fluid" style="padding: 10px;">
+        <a class="navbar-brand" href="#">
+          <h3>Payment form example</h3>
+        </a>
+      </div>
+    </nav>
+    </div>
+    </div>
+    <div class="container">
+    <div class="first entry" style="padding: 20px;">
+      <div class="bg-danger p-2 text-danger bg-opacity-25 rounded">
+        <strong>Some fields are missing</strong>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <div class="container">
+      <div class="second entry d-flex">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Card #</label>
+            <input type="text" class="form-control" id="validationCustom01" value="XXXXXXXXXXXX" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">CVC #</label>
+            <input type="text" class="form-control" id="validationCustom02" value="0000" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Amount</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Amount" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <div class="third entry d-flex">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-6">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Postal Code</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <div class="container">
+          <h5>We accept:</h5>
+          <div class="container d-flex">
+            <div class="bg-secondary p-2 text-dark rounded">
+              <div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                  <label class="form-check-label" for="inlineRadio1">
+                    <i class="fa-brands fa-cc-mastercard fa-lg"></i>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                  <label class="form-check-label" for="inlineRadio2">
+                    <i class="fa-brands fa-cc-visa fa-lg"></i>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                    value="option3">
+                  <label class="form-check-label" for="inlineRadio3">
+                    <i class="fa-brands fa-cc-discover fa-lg"></i>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                    value="option4">
+                  <label class="form-check-label" for="inlineRadio4">
+                    <i class="fa-brands fa-cc-amex fa-lg"></i>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <label for="floatingTextarea2">Message</label>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+
+            </div>
+          </div>
+        </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <div class="container border" style="padding:0px;">
+    <nav class="navbar sticky-bottom bg-light d-flex flex-row-reverse">
+      <a class="navbar-brand" href="#">
+        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+        <label class="btn btn-secondary" for="option1">Cancel</label>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </a>
+    </nav>
+  </div>
+  </div>
+  </form>
+  </div>
+</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
